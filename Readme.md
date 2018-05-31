@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Екатерина Кашкова](https://up.htmlacademy.ru/htmlcss/21/user/799169).
-* Наставник:[Виктор Кан](https://htmlacademy.ru/profile/viktorkan).
+* Наставник: [Виктор Кан](https://htmlacademy.ru/profile/viktorkan).
 
 ---
 
