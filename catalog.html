@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/index.css">
   </head>
   <body>
+    <div class="wrapper"> <!--Общая обертка для всей контентной части-->
   	<header class="main-header">
       <nav class="main-navigation">
       	<a class="logo.png">
@@ -20,50 +21,52 @@
         	</ul>
        </nav>
        </header>
-       		<section class="filters">
-        		<h2 class="visually-hidden">Фильтр</h2>
-        		  <form class="filter" method="get">
+       <section class="header_middle-two">
+       <!--Секция для гор-->
+       <section class="filters">
+            <h2 class="visually-hidden"></h2>
+              <form class="filter" method="get">
                 <fieldset>
-                  <legend>Инфраструктура:</legend>
+                  <legend class="filter-type">Инфраструктура:</legend>
                     <ul>
                       <li>
                       <input type="checkbox" name="pool" id="filter-pool" checked>
-                        <label for="filter-pool">
+                        <label for=for="filter-pool" class="criterion">
                         Бассейн
                         </label>
                       </li>
                       <li>
                       <input type="checkbox" name="parking" id="filter-parking">
-                        <label for="filter-parking">
+                        <label for="filter-parking" class="criterion">
                         Паркинг
                         </label>
                       </li>
                       <li>
                       <input type="checkbox" name="wi-fi" id="filter-wi-fi">
-                        <label for="filter-wi-fi">
+                        <label for="filter-wi-fi" class="criterion">
                         WI-FI
                         </label>
                       </li>
                     </ul>
                 </fieldset>
                 <fieldset>
-                    <legend>Тип жилья:</legend>
+                    <legend class="filter-type">Тип жилья:</legend>
                       <ul>
                         <li>
                         <input type="checkbox" name="hotel" id="filter-hotel" checked>
-                          <label for="filter-hotel">
+                          <label for="filter-hotel" class="criterion">
                           Гостиница
                           </label>
                         </li>
                         <li>
                         <input type="checkbox" name="motel" id="filter-motel">
-                          <label for="filter-motel">
+                          <label for="filter-motel" class="criterion">
                           Мотель
                           </label>
                       </li>
                       <li>
                       <input type="checkbox" name="apartments" id="filter-apartments">
-                        <label for="filter-apartments">
+                        <label for="filter-apartments" class="criterion">
                         Апартаменты
                         </label>
                       </li>
@@ -71,22 +74,23 @@
                 </fieldset>
                 <fieldset>
                 <label>
-                  <legend>Стоимость в сутки (Р):</legend>
-                  <input type="text" name="min-price" value="От 0">
-                  <input type="text" name="max-price" value="До 3000">
+                  <legend class="filter-type">Стоимость в сутки (Р):</legend>
+                  <input type="text" name="min-price" class="criterion" value="От 0">
+                  <input type="text" name="max-price" class="criterion" value="До 3000">
                     <input type="range" name="min-max-price">
                 </label>
                 </fieldset>
             <button type="submit" class="filter-button button">Показать</button>
           </form>   
-			</section>
+      </section>
+      </section>
       <span class="counter">
         <h2>Найдено:3</h2>
-          <p>Сортировка</p>
+          <p class="sorting">Сортировка</p>
             <ul class"sorting">
-              <li class="by price">По цене</li>
-              <li class="type">По типу</li>
-              <li class="by rating">По рейтингу</li>
+              <li class="sorting">По цене</li>
+              <li class="sorting">По типу</li>
+              <li class="sorting">По рейтингу</li>
           </ul>
       </span>
 			<section class="catalog">
@@ -94,7 +98,7 @@
         			<ul class="catalog-list">
           			<li> 
           				<h3>
-          					<a href="catalog-item.html">AMARA RESORT & SPA</a>
+          					<a href="catalog-item.html" class="name">AMARA RESORT & SPA</a>
           				</h3>
           					<p>
           					<img src="img\hotel1.jpg" alt="Photo AMARA RESORT & SPA"></p>
@@ -108,7 +112,7 @@
             		</li>
             		<li> 
           				<h3>
-          					<a href="catalog-item.html">DESERT QUAIL INN</a>
+          					<a href="catalog-item.html" class="name">DESERT QUAIL INN</a>
           				</h3>
           					<p>
           					<img src="img\hotel2.jpg" alt="Photo DESERT QUAIL INN"></p>
@@ -122,7 +126,7 @@
             		</li>
             		<li> 
           				<h3>
-          					<a href="catalog-item.html">DESERT QUAIL INN</a>
+          					<a href="catalog-item.html" class="name">DESERT QUAIL INN</a>
           				</h3>
           					<p><img src="img\hotel3.jpg" alt="Photo VILLAS AT POCO DIABLO"></p>
           					<span class="type-of-allocation">Апартаменты</span>
@@ -151,4 +155,5 @@
         	<a class="button" href="https://htmlacademy.ru">HTML Academy</a>
       	</p>
       </footer>
+    </div>
   </body>

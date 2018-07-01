@@ -27,11 +27,13 @@ a {
   background-color: #ffffff;
 }
 
-.site-navigation {
+.site-navigation,
+ ul {
   list-style: none;
 }
 
-.site-navigation a {
+.site-navigation a,
+.name {
   color: #000000;
 }
 
@@ -46,6 +48,14 @@ a {
 .container h2 {
   font-size: 21px;
   line-height: 26px;
+}
+
+.visually-hidden {
+  font-family: "PT Sans";
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: normal;
+  text-align: center;
 }
 
 .advantage-list,
@@ -114,4 +124,56 @@ a {
   text-align: center;
   color: #000000;
 }
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  background: white;
+}
+.header__middle {
+  height: 508px;
+  background: url(../img/Background_2.jpg);
+  background-size: cover;
+}
+.header_middle-two {
+  height: 508px;
+  background: url(../img/Background.jpg);
+  background-size: cover;
+}
 
+.filter-type {
+  font-family: "PT Sans";
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+}
+
+.criterion {
+  font-family: "PT Sans";
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+  text-align: lighter;
+  color: #ffffff;
+}
+
+.sorting {
+  font-family: "PT Sans";
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: bold;
+  text-align: lighter;
+  color: #000000;
+}
+
+.type-of-allocation,
+.price,
+.rating {
+  font-family: "PT Sans";
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+  text-align: lighter;
+  color: #000000;
+}
