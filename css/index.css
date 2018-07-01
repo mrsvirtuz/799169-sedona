@@ -13,5 +13,105 @@ body {
   background-image: url("img/bg.jpg");
   background-position: top center;
   background-repeat: no-repeat;
-  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #000000;
+}
+
+.features {
+  list-style: none;
+}
+
+.container {
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.advantage-list,
+.visually-hidden {
+  list-style: none;
+ }
+
+.visually-black {
+  font-family: "PT Sans";
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.visually-white {
+  font-family: "PT Sans";
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: lighter;
+  text-align: center;
+  color: #ffffff;
+}
+
+.main-hidden {
+  font-family: "PT Sans";
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+}
+
+.location {
+  font-family: "PT Sans";
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+}
+
+.loc-details {
+  font-family: "PT Sans";
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: lighter;
+  text-align: center;
+  color: #000000;
+}
+
+.additional-benefits{
+  font-family: "PT Sans";
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: lighter;
+  text-align: center;
+  color: #000000;
+}
+
+.additional-benefits-bold {
+  font-family: "PT Sans";
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+}
 
